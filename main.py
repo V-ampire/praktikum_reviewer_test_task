@@ -39,7 +39,7 @@ class Calculator:
             # что может привести к ошибкам в расчетах.
             # Оптимальным подходом будет задать дату как атрибут при инициализации self.calculation_date, тем более что она используется в еще одном методе ниже
             if Record.date == dt.datetime.now().date():
-                # today_stats += Record.amoun
+                # Используйте today_stats += Record.amoun
                 today_stats = today_stats + Record.amoun
         return today_stats
 
